@@ -1,0 +1,45 @@
+.main-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.image {
+  width: 50%;
+}
+.head {
+  color: white;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.input {
+  height: 40px;
+  background: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  margin-top: 3px;
+}
+.para {
+  border-radius: 5px;
+  background-color: white;
+  color: #1d976c;
+  width: 160px;
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+.par {
+  color: white;
+}
